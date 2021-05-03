@@ -135,5 +135,7 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+config.json
+
 # vercel
 .vercel

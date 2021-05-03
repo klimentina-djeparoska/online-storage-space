@@ -17,6 +17,8 @@
     "invalidate-cache": "aws cloudfront create-invalidation --distribution-id DISTRIBUTION_ID --paths \"/*\" --profile onlineStorageSpace"
   },
   "dependencies": {
+    "@aws-amplify/auth": "^3.4.30",
+    "@aws-amplify/core": "^3.8.22",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "next": "10.2.0",
